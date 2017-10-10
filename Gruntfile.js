@@ -181,7 +181,7 @@ module.exports = function(grunt) {
       },
       script: {
         files: ['src/js/**/*.js', 'test/unit/**/*.js'],
-        tasks: ['lint', 'build', 'karma:all'],
+        tasks: ['build', 'karma:all'],
         options: {
           livereload: true
         }

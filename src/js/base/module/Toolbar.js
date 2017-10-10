@@ -61,7 +61,7 @@ export default class Toolbar {
     const editorHeight = this.$editor.outerHeight();
     const editorWidth = this.$editor.width();
 
-    const toolbarHeight = this.$toolbar.height();
+    const toolbarHeight = this.$toolbar.outerHeight();
     $toolbarWrapper.css({
       height: toolbarHeight
     });
